@@ -21,3 +21,5 @@ spec:
         - containerPort: 80
       name: tomcat
       image: tomcat:1.12
+      name: httpd
+      image: httpd:1.18
